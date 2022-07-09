@@ -65,3 +65,17 @@
     background: #f8d7da;
 }
 
+.quiz_box .option_list .option.disabled {
+    pointer-events: none;
+}
+
+.quiz_box footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quiz_box.transition{
+    transition: all 0.3s ease;
+}
+

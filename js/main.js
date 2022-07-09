@@ -5,16 +5,7 @@ jQuery(document).ready(function($){
 		$('.cd-popup').addClass('is-visible');
 	});
 
-	$('#yes').on('click' , function (){
-		event.preventDefault();
-		$('.quiz_box').removeClass('active');
-	})
 
-	$('#no').on('click', function (){
-		event.preventDefault();
-		$('.cd-popup').removeClass('is-visible');
-	});
-	
 	//close popup
 	$('.cd-popup').on('click', function(event){
 		if( $(event.target).is('.cd-popup-close') || $(event.target).is('.cd-popup') ) {
